@@ -18,7 +18,8 @@ public class Test {
         // 用户账号
         String userid = "E10DPN";
         // 用户密码
-        String pwd = "oMgSqN";
+//        String pwd = "oMgSqN";
+        String pwd = "oMgSqN1";
 
         //主IP信息  必填
 //		String masterIpAddress="192.169.3.223:8089";
@@ -110,7 +111,7 @@ public class Test {
             message.setMobile("17683929685");
             // 设置内容
 
-            String context = "您的注册验证码是464578，在5分钟内输入有效。如非本人操作请忽略此短信。";
+            String context = "您的注册验证码是462602，在5分钟内输入有效。如非本人操作请忽略此短信。";
             message.setContent(context);
             // 设置扩展号
             message.setExno("11");
